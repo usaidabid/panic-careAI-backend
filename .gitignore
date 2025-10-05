@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Env file
+.env
+
+# Ignore nested backend repo
+backend/Panic-care-AI/
