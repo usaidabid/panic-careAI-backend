@@ -432,3 +432,8 @@ async def show_user(
 async def health_check():
     """Checks the health of the API."""
     return {"status": "ok", "message": "API is running"}
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("app:app", host="0.0.0.0", port=port)
