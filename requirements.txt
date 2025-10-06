@@ -116,7 +116,6 @@ twilio==9.6.1
 typing-inspect==0.9.0
 typing-inspection==0.4.0
 typing_extensions
-urllib3==2.4.0
 uvicorn==0.34.2
 websocket-client==1.8.0
 wsproto==1.2.0
